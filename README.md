@@ -8,16 +8,17 @@ A slightly opinionated boilerplate for hugo new projects.
 
 ---
 
-Whenever I create a new hugo project with `hugo new site SITE_NAME` and `hugo new theme THEME_NAME` I have to spend time to edit and add files just so the new site can render without errors.
-To avoid the hustle I created the **OxyBoil Hugo Edition**.
+Whenever you create a new hugo project with `hugo new site SITE_NAME` and `hugo new theme THEME_NAME` you have to edit and add folders, files just so the new site can render without errors and be ready for development.
 
-Feel free to use it if you like.
+To avoid the hustle use the **OxyBoil Hugo Edition**, a ready to run, bare bone, hugo new site and theme boilerplate.
 
-[Download the zip](https://github.com/Oxypteros/OxyBoil-hugo/archive/refs/heads/main.zip) and extract in your new site folder or press the ***Use this template*** button to use as repo template.
+## Install
+
+[Download the zip](https://github.com/Oxypteros/OxyBoil-hugo/archive/refs/heads/main.zip) and extract in your new site folder or press the **Use this template** button to use as repo template.
 
 Nothing fancy.
 
-## Changes from default new site
+### Changes from default new site
 
 `config.toml`
 
@@ -36,7 +37,7 @@ Nothing fancy.
 
 * Add boilerplate theme with `hugo new theme OxyBoil-theme`
 
-## Changes from default new theme
+### Changes from default new theme
 
 * Add `FILE IDENTIFIER` to `404.html`
 * Add `{{ define "main" }} FILE IDENTIFIER {{- end }}` to `index.html`
@@ -49,7 +50,7 @@ Nothing fancy.
 
 `_default/`
 
-* Add `_markup/` folder and files `render-link.html` (with `target="blank"`), `render-image.html` (for `hugo version > 0.108.0`)
+* Add `_markup/` folder and files `render-link.html` (with `target="blank"`), `render-image.html` (for *hugo version > 0.108.0*)
 * Add `lang="{{ .Site.Language.Lang }}"` to `<html>` tag of `baseof.html`
 * Add `{{ define "main" }} FILE IDENTIFIER {{- end }}` to `list.html` and `single.html`
 
