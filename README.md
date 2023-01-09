@@ -1,11 +1,13 @@
 # OxyBoil Hugo Edition (v0.0.1-alpha)
 
 An opinionated boilerplate of hugo new site/theme.
+[Demo Preview Site](https://oxyboil-hugo.vercel.app/)
 
 ## Changes from hugo new site
 
 `config.toml`
 
+* Change `baseURL`
 * Add `theme = 'OxyBoil-theme'`
 
 `archetypes/default.md`
