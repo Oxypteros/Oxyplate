@@ -14,9 +14,13 @@ To avoid the hustle use the **OxyBoil Hugo Edition**, a ready to run, bare bone,
 
 ## Install
 
-[Download the zip](https://github.com/Oxypteros/OxyBoil-hugo/archive/refs/heads/main.zip) and extract in your new site folder or press the **Use this template** button to use as repo template.
+[Download the zip](https://github.com/Oxypteros/OxyBoil-hugo/archive/refs/heads/main.zip) and extract it in a new site folder or press the **Use this template** button to use as repo template.
 
 Nothing fancy.
+
+### Dependencies
+
+* Minimun hugo version `0.108.0`
 
 ### Changes from default new site
 
