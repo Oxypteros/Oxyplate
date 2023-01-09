@@ -1,16 +1,23 @@
-# OxyBoil Hugo Edition (v0.0.1-alpha)
+# OxyBoil Hugo Edition 
 
-An opinionated boilerplate of hugo new site/theme.
-[Demo Preview Site](https://oxyboil-hugo.vercel.app/)
+A slightly opinionated boilerplate for hugo new projects.
+
+`v0.0.1-alpha`
+
+[**Demo Preview Site**](https://oxyboil-hugo.vercel.app/)
+
+---
 
 Whenever I create a new hugo project with `hugo new site SITE_NAME` and `hugo new theme THEME_NAME` I have to spend time to edit and add files just so the new site can render without errors.
-I prefer to spend this time more productively so I created the OxyBoil Hugo Edition. A bare bone, set up for my needs, boilerplate for hugo new projects.
+To avoid the hustle I created the **OxyBoil Hugo Edition**.
 
 Feel free to use it if you like.
-[Download the zip](https://github.com/Oxypteros/OxyBoil-hugo/archive/refs/heads/main.zip) and extract in your new site folder or press the `Use this template` button to use as repo template.
+
+[Download the zip](https://github.com/Oxypteros/OxyBoil-hugo/archive/refs/heads/main.zip) and extract in your new site folder or press the ***Use this template*** button to use as repo template.
+
 Nothing fancy.
 
-## Changes from hugo new site
+## Changes from default new site
 
 `config.toml`
 
@@ -29,7 +36,7 @@ Nothing fancy.
 
 * Add boilerplate theme with `hugo new theme OxyBoil-theme`
 
-## Changes from hugo new theme
+## Changes from default new theme
 
 * Add `FILE IDENTIFIER` to `404.html`
 * Add `{{ define "main" }} FILE IDENTIFIER {{- end }}` to `index.html`
