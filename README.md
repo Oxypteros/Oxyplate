@@ -1,6 +1,6 @@
-# OxyBoil Hugo Edition
+# OxyBoil Hugo Edition (v0.0.1-alpha)
 
-A default boilerplate of hugo files for new site/theme.
+An opinionated boilerplate of hugo new site/theme.
 
 ## Changes from hugo new site
 
