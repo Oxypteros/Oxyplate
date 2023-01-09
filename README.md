@@ -28,6 +28,10 @@ An opinionated boilerplate of hugo new site/theme.
 * Add `assets/css/styles.css` file
 * Add `i18n/en.toml` file, and months translations in `en.toml`
 
+`theme.toml`
+
+* Change minimum version `min_version = "0.108.0"`
+
 `_default/`
 
 * Add `_markup/` folder and files `render-link.html` (with `target="blank"`), `render-image.html` (for `hugo version > 0.108.0`)
