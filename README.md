@@ -20,7 +20,7 @@ Nothing fancy.
 
 ### Dependencies
 
-* Minimun hugo version `0.110.0`
+* Minimum hugo version `0.110.0`
 
 ### Changes from default new site
 
@@ -67,3 +67,9 @@ Nothing fancy.
 `partials/`
 
 * Add `FILE IDENTIFIER` to `footer.html`, `head.html` and `header.html`
+
+### Misc Changes
+
+* Add vercel.json with Hugo 0.110.0 version and headers CSP
+
+[Mozilla Observatory](https://observatory.mozilla.org/analyze/oxyboil-hugo.vercel.app) grade **A<sup>+</sup>**
