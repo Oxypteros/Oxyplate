@@ -26,6 +26,8 @@ Nothing fancy.
 
 `hugo.toml`
 
+* Rename config.toml to hugo.toml
+
 * Add `theme = 'OxyBoil-theme'`
 
 `archetypes/default.md`
@@ -54,7 +56,7 @@ Nothing fancy.
 
 `theme.toml`
 
-* Change minimum version `min_version = "0.108.0"`
+* Change minimum version `min_version = "0.110.0"`
 
 `_default/`
 
