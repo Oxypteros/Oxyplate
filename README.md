@@ -2,7 +2,7 @@
 
 A slightly opinionated boilerplate for hugo new projects.
 
-`v0.0.1-alpha`
+`v0.0.2-alpha`
 
 [**Demo Preview Site**](https://oxyboil-hugo.vercel.app/)
 
@@ -20,11 +20,11 @@ Nothing fancy.
 
 ### Dependencies
 
-* Minimun hugo version `0.108.0`
+* Minimun hugo version `0.110.0`
 
 ### Changes from default new site
 
-`config.toml`
+`hugo.toml`
 
 * Add `theme = 'OxyBoil-theme'`
 
@@ -40,6 +40,10 @@ Nothing fancy.
 `themes/`
 
 * Add boilerplate theme with `hugo new theme OxyBoil-theme`
+
+`config/_default`
+
+* Add separate config files for languages, menus, params
 
 ### Changes from default new theme
 
