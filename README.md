@@ -68,6 +68,10 @@ Nothing fancy.
 
 * Add `FILE IDENTIFIER` to `footer.html`, `head.html` and `header.html`
 
+`layouts/`
+
+* Add `/shortcodes/` folder.
+
 ### Misc Changes
 
 * Add vercel.json with Hugo 0.110.0 version and headers CSP
