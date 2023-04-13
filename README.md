@@ -1,4 +1,4 @@
-# OxyBoil Hugo Edition 
+# Oxyplate
 
 A slightly opinionated boilerplate for hugo new projects.
 
